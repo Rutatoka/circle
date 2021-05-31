@@ -1,0 +1,35 @@
+body {
+    margin: 0 auto;
+    overflow: hidden;
+    background:linear-gradient(red,black) ;
+    background-repeat:no-repeat ;
+
+}
+.wrap{
+    width: 1000px;
+    margin: 0 auto;
+    height: 800px;
+    position: relative;
+}
+ul li .btn{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+   /* border-radius: 50%;*/
+    background:url("../img/Swastika_nazi.svg.png");
+    background-size: cover;
+    top:0;
+    right: 25%;
+    cursor: pointer;
+
+}
+.cnt{
+    font-family: Algerian;
+    color: red;
+    position: absolute;
+    top:29%;
+    right:50%;
+}
+li{
+    list-style-type: none;
+}
